@@ -1,36 +1,8 @@
-@font-face {
-  font-family: "Agustina Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
-  font-display: swap;
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-html,
-body {
-  scroll-behavior: smooth;
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-/* Media Query */
-@media (max-width: 1380px) {
-  html,
-  body {
-    font-size: rem;
-    line-height: normal;
-  }
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
